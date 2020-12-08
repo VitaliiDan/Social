@@ -1,0 +1,11 @@
+.news {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news > img {
+    max-width: 100%;
+}

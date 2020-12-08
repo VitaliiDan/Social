@@ -1,0 +1,14 @@
+.dialogs {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_side {
+    width: 33%;
+    padding: 10px;
+}
+
+.right_side {
+    width: 67%;
+    padding: 10px;
+}

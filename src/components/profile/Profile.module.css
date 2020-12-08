@@ -1,0 +1,62 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content > img {
+    width: 90%;
+    margin: 10px auto;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.userInfo {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ava {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: center;
+}
+
+.userInfo > p {
+    width: 400px;
+    margin-left: 50px;
+}
+
+.postWrapper {
+    width: 100%;
+    margin: 20px auto;
+    height: 160px;
+    overflow-y: auto;
+}
+
+.newMessage {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.newMessage > p > input {
+    width: 200px;
+    height: 40px;
+}
+
+.newMessage > button {
+    margin-left: 30px;
+    padding: 5px 15px;
+}
