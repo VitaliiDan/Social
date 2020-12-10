@@ -6,9 +6,11 @@
 .left_side {
     width: 33%;
     padding: 10px;
+    background: tomato;
 }
 
 .right_side {
     width: 67%;
     padding: 10px;
+    background: orange;
 }

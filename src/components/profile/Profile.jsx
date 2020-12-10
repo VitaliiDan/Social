@@ -13,17 +13,15 @@ const Profile = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur dolorem enim eveniet
                     illo labore, nihil officia pariatur possimus rerum?</p>
             </div>
-            <div>
-                <div className={classes.newMessage}>
-                    <p><input type="text"/></p>
-                    <button>add message</button>
-                </div>
+            <div className={classes.newMessage}>
+                <p><input type="text"/></p>
+                <button>add message</button>
+            </div>
                 <div className={classes.postWrapper}>
                     <Post message='Lorem ipsum dolor sit amet, consectetur adipisicing' />
                     <Post message='nihil officia pariatur possimus rerum?' />
                     <Post message='officia pariatur possimus rerum?' />
                 </div>
-            </div>
         </div>
     );
 }

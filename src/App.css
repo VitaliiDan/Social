@@ -11,10 +11,10 @@
     display: grid;
     grid-template-areas:
         "header header"
-        "n content"
+        "navbar content"
         "footer footer";
-    grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
+    grid-template-rows: 60px 1fr 100px;
     grid-gap: 10px;
 }
 
